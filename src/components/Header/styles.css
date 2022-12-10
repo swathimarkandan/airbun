@@ -1,0 +1,90 @@
+.header{
+    display:flex;
+    justify-content: space-between;
+    padding:20px 5px 5px 10px;
+    position: static;
+    top:0px;
+}
+.logo{
+    padding-top: 8px;
+    height:2em;
+}
+.middle-search{
+    border: 2px solid var(--light-grey);
+    gap:0.5rem;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 18px;
+    padding: 0.5rem;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+}
+.middle-search:hover{
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 4px 12px rgb(0 0 0 / 10%);
+    transition: all 0.2s;
+}
+.search-inside-div{
+     border-right:2px solid var(--grey);
+    padding:0.3rem;
+    border-radius: 18px;
+    font-weight: 600;
+}
+.search-inside-div2{
+    
+    color:var(--lgrey);
+   padding:0.3rem;
+   border-radius: 18px;
+   font-weight: 600;
+}
+.search-icon-div{
+    background-color: var(--theme);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding:0.3rem ;
+}
+.search-icon{
+    color: white;
+}
+.third-nav-profile{
+display:flex;
+justify-content: flex-end;
+align-items: center;
+ gap:0.3rem; 
+}
+.airbun-home{
+    padding:1rem 0.7rem; 
+font-weight:600;
+border-radius: 3rem;
+/* font-size: 0.8rem; */
+}
+.airbun-home:hover {
+    background-color: var(--light-grey);
+}
+.menu-usermenu{
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap:0.25rem;
+    padding: 0.3rem;
+    border: 1px solid var(--grey);
+    color: var(--grey);
+    border-radius: 0.8rem;
+    margin-right: 1rem;
+}
+.nav-b{
+    position: fixed;
+    bottom:0;
+    left:0;
+    width:100%;
+    border-top: 1px solid var(--grey);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 10%), 0 4px 12px rgb(0 0 0 / 10%);
+}
+@media only screen and (max-width :800px){
+    .middle-search,
+    .third-nav-profile,
+    .logo{
+        display:none;
+    }
+}
