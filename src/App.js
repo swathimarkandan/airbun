@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {useState} from "react";
 import {list,list2} from "./assets/Cards-array.js"
